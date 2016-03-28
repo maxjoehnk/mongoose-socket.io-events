@@ -1,0 +1,36 @@
+{
+  "name": "mongoose-socket.io-events",
+  "version": "1.0.0",
+  "description": "",
+  "main": "lib",
+  "dependencies": {
+    "lodash": "^4.6.1",
+    "socket.io": "^1.4.5"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "sinon": "^1.17.3",
+    "sinon-chai": "^2.8.0"
+  },
+  "scripts": {
+    "test": "mocha --reporter spec test/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/maxjoehnk/mongoose-socket.io-events.git"
+  },
+  "keywords": [
+    "mongoose",
+    "socket.io",
+    "event",
+    "emit",
+    "mongo",
+    "mongodb"
+  ],
+  "author": "Max Joehnk",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/maxjoehnk/mongoose-socket.io-events/issues"
+  },
+  "homepage": "https://github.com/maxjoehnk/mongoose-socket.io-events#readme"
+}
