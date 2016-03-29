@@ -3,10 +3,18 @@ import * as _ from 'lodash';
 import * as mongoose from 'mongoose';
 
 function plugin(schema: mongoose.Schema, options:any) {
-    let server = io();
+    let server = _.get(options, 'server', io());
     let conn;
     let prefix = _.get(options, 'prefix', 'mongoose') + ':';
     let room = _.get(options, 'room', '_id');
+
+    if (_.has(options, 'attach')) {
+        server.attach(options.attach);
+    }
+
+    if (_.has(options, 'port')) {
+        server.attach(options.port);
+    }
 
     if (_.has(options, 'namespace')) {
         conn = server.of(options.namespace);
