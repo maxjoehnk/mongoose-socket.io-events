@@ -1,5 +1,7 @@
 # mongoose-socket.io-events
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/maxjoehnk/mongoose-socket.io-events.svg)](https://greenkeeper.io/)
+
 This plugin emits socket.io events on mongoose hooks.
 All events are sent on the post hook.
 
