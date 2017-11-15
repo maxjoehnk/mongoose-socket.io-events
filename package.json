@@ -5,7 +5,7 @@
   "main": "lib",
   "dependencies": {
     "lodash": "^4.6.1",
-    "socket.io": "^1.4.5"
+    "socket.io": "^2.0.0"
   },
   "devDependencies": {
     "chai": "^3.5.0",
